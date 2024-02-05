@@ -8,7 +8,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Install Ruby (3.0)
-      uses: ruby/setup-ruby@v2
+      uses: ruby/setup-ruby@main
       with:
         ruby-version: 3.0.3
     - name: Build and test with RSpec
