@@ -24,3 +24,15 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+Team members name:
+
+Michael Tao
+
+Arush Chhatrapati
+
+Jackson Xu
+
+Perry (Jingchao) Zhong
+
+Razvan Turcu
