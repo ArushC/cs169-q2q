@@ -186,3 +186,40 @@ Processing by MainController#index as HTML
 Completed 200 OK in 16ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 9329)
 
 
+Started GET "/" for ::1 at 2024-02-06 17:43:38 -0800
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 453)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/razvan/Desktop/cs169L/cs169-q2q/public/packs
+[Webpacker] Hash: a5110c4aa19ac0d8ed46
+Version: webpack 4.47.0
+Time: 435ms
+Built at: 02/06/2024 5:43:40 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-107a8ddfa5e1e2ac63c5.js   68.5 KiB  application  [emitted] [immutable]  application
+js/application-107a8ddfa5e1e2ac63c5.js.map   76.1 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-107a8ddfa5e1e2ac63c5.js js/application-107a8ddfa5e1e2ac63c5.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 436 bytes {application} [built]
+    + 2 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 2450.4ms | Allocations: 12744)
+Completed 200 OK in 2458ms (Views: 2454.1ms | ActiveRecord: 0.0ms | Allocations: 16746)
+
+
+Started GET "/" for ::1 at 2024-02-06 17:47:31 -0800
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 346)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 25.6ms | Allocations: 11721)
+Completed 200 OK in 29ms (Views: 26.9ms | ActiveRecord: 0.0ms | Allocations: 14671)
+
+
